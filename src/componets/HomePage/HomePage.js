@@ -1,18 +1,12 @@
 import React from "react";
 import "./HomePage.css";
-import perfectmoments from "../../assets/pmlogo.png";
+
 
 const toolbar = (props) => (
   <header className="toolbar">
     <nav className="toolbar_navigation">
       <div></div>
-      <div
-        className="toolbar_logo"
-        img
-        src={perfectmoments}
-        alt="Perfect Moments"
-        id="perfectmoments"
-      >
+      <div>
         <a href="/"></a>
       </div>
       <div className="spacer" />
@@ -26,10 +20,10 @@ const toolbar = (props) => (
               <a href="/">CONTACT</a>
             </li>
             <li>
-              <a href="/">LINEN RENTALS</a>
+              <a href="/">RENTALS</a>
             </li>
             <li>
-              <a href="/">WEDDING PACKAGE OPTIONS</a>
+              <a href="/">PACKAGE OPTIONS</a>
             </li>
             <li>
               <a href="/">GALLERY</a>
@@ -45,6 +39,7 @@ const toolbar = (props) => (
       </div>
     </nav>
   </header>
+  
 );
 
 export default toolbar;
